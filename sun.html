@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CW10: Javascript Animation</title>
+</head>
+
+<body>
+	<div>
+		<label for="xSlider" style="width:100px; display:inline-block">
+			Scale x: <b id="xScale">1</b>
+		</label>
+		<input id="xSlider" type="range" min="0" max="3" step="0.1" value="1">
+	</div>
+	<div>
+		<label for="ySlider" style="width:100px; display:inline-block">
+			Scale y: <b id="yScale">1</b>
+		</label>
+		<input id="ySlider" type="range" min="0" max="3" step="0.1" value="1">
+	</div>
+	<canvas id="myCanvas" width="400" height="200" style="border: 1px solid gray"></canvas>
+	<script src="sun.js"></script>
+</body>
+
+</html>
